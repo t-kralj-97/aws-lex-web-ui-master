@@ -1,0 +1,33 @@
+{
+  "cognito": {
+    "poolId": "us-east-1:2f9f4c44-4d08-4a4e-9e00-c66035f76a21"
+  },
+  "lex": {
+    "botName": "QNA_test_dev_master_two_BotEdhqW",
+    "initialText": "You can ask me for help ordering flowers. Just type \"order flowers\" or click on the mic and say it.",
+    "initialSpeechInstruction": "Say 'Order Flowers' to get started."
+  },
+  "polly": {
+    "voiceId": "Salli"
+  },
+  "ui": {
+    "parentOrigin": "http://localhost:8080",
+    "pageTitle": "Order Config Bot",
+    "toolbarTitle": "Order Config",
+    "enableLogin": true,
+    "pushInitialTextOnRestart": false,
+    "shouldDisplayResponseCardTitle": false,
+    "showErrorIcon": true,
+    "showDialogStateIcon": false,
+    "positiveFeedbackIntent": "Thumbs up",
+    "negativeFeedbackIntent": "Thumbs down",
+    "helpIntent": "help",
+    "hideInputFieldsForButtonResponse": true
+  },
+  "recorder": {
+    "preset": "speech_recognition"
+  },
+  "iframe": {
+    "shouldLoadIframeMinimized": false
+  }
+}
